@@ -12,16 +12,30 @@
 		06B793D11F9520E400E46CCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06B793CF1F9520E400E46CCE /* Main.storyboard */; };
 		06B793D31F9520E400E46CCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06B793D21F9520E400E46CCE /* Assets.xcassets */; };
 		06B793D61F9520E400E46CCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06B793D41F9520E400E46CCE /* LaunchScreen.storyboard */; };
+		06B793E41F952AFF00E46CCE /* note1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 06B793DE1F95244A00E46CCE /* note1.wav */; };
+		06B793E51F952B0B00E46CCE /* note2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 06B793E31F95244B00E46CCE /* note2.wav */; };
+		06B793E61F952B0B00E46CCE /* note3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 06B793DD1F95244A00E46CCE /* note3.wav */; };
+		06B793E71F952B0B00E46CCE /* note4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 06B793E01F95244A00E46CCE /* note4.wav */; };
+		06B793E81F952B0B00E46CCE /* note5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 06B793DF1F95244A00E46CCE /* note5.wav */; };
+		06B793E91F952B0B00E46CCE /* note6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 06B793E11F95244A00E46CCE /* note6.wav */; };
+		06B793EA1F952B0B00E46CCE /* note7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 06B793E21F95244A00E46CCE /* note7.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		06B793C81F9520E400E46CCE /* Piano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Piano.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06B793C81F9520E400E46CCE /* Xylophone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xylophone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06B793CB1F9520E400E46CCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06B793CD1F9520E400E46CCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		06B793D01F9520E400E46CCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06B793D21F9520E400E46CCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06B793D51F9520E400E46CCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06B793D71F9520E400E46CCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06B793DD1F95244A00E46CCE /* note3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note3.wav; sourceTree = "<group>"; };
+		06B793DE1F95244A00E46CCE /* note1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note1.wav; sourceTree = "<group>"; };
+		06B793DF1F95244A00E46CCE /* note5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note5.wav; sourceTree = "<group>"; };
+		06B793E01F95244A00E46CCE /* note4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note4.wav; sourceTree = "<group>"; };
+		06B793E11F95244A00E46CCE /* note6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note6.wav; sourceTree = "<group>"; };
+		06B793E21F95244A00E46CCE /* note7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note7.wav; sourceTree = "<group>"; };
+		06B793E31F95244B00E46CCE /* note2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note2.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +60,7 @@
 		06B793C91F9520E400E46CCE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				06B793C81F9520E400E46CCE /* Piano.app */,
+				06B793C81F9520E400E46CCE /* Xylophone.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,6 +68,13 @@
 		06B793CA1F9520E400E46CCE /* Piano */ = {
 			isa = PBXGroup;
 			children = (
+				06B793DE1F95244A00E46CCE /* note1.wav */,
+				06B793E31F95244B00E46CCE /* note2.wav */,
+				06B793DD1F95244A00E46CCE /* note3.wav */,
+				06B793E01F95244A00E46CCE /* note4.wav */,
+				06B793DF1F95244A00E46CCE /* note5.wav */,
+				06B793E11F95244A00E46CCE /* note6.wav */,
+				06B793E21F95244A00E46CCE /* note7.wav */,
 				06B793CB1F9520E400E46CCE /* AppDelegate.swift */,
 				06B793CD1F9520E400E46CCE /* ViewController.swift */,
 				06B793CF1F9520E400E46CCE /* Main.storyboard */,
@@ -67,9 +88,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		06B793C71F9520E400E46CCE /* Piano */ = {
+		06B793C71F9520E400E46CCE /* Xylophone */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 06B793DA1F9520E400E46CCE /* Build configuration list for PBXNativeTarget "Piano" */;
+			buildConfigurationList = 06B793DA1F9520E400E46CCE /* Build configuration list for PBXNativeTarget "Xylophone" */;
 			buildPhases = (
 				06B793C41F9520E400E46CCE /* Sources */,
 				06B793C51F9520E400E46CCE /* Frameworks */,
@@ -79,9 +100,9 @@
 			);
 			dependencies = (
 			);
-			name = Piano;
+			name = Xylophone;
 			productName = Piano;
-			productReference = 06B793C81F9520E400E46CCE /* Piano.app */;
+			productReference = 06B793C81F9520E400E46CCE /* Xylophone.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +121,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 06B793C31F9520E400E46CCE /* Build configuration list for PBXProject "Piano" */;
+			buildConfigurationList = 06B793C31F9520E400E46CCE /* Build configuration list for PBXProject "Xylophone" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,7 +134,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				06B793C71F9520E400E46CCE /* Piano */,
+				06B793C71F9520E400E46CCE /* Xylophone */,
 			);
 		};
 /* End PBXProject section */
@@ -123,6 +144,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06B793E91F952B0B00E46CCE /* note6.wav in Resources */,
+				06B793E81F952B0B00E46CCE /* note5.wav in Resources */,
+				06B793E61F952B0B00E46CCE /* note3.wav in Resources */,
+				06B793E41F952AFF00E46CCE /* note1.wav in Resources */,
+				06B793E71F952B0B00E46CCE /* note4.wav in Resources */,
+				06B793E51F952B0B00E46CCE /* note2.wav in Resources */,
+				06B793EA1F952B0B00E46CCE /* note7.wav in Resources */,
 				06B793D61F9520E400E46CCE /* LaunchScreen.storyboard in Resources */,
 				06B793D31F9520E400E46CCE /* Assets.xcassets in Resources */,
 				06B793D11F9520E400E46CCE /* Main.storyboard in Resources */,
@@ -303,7 +331,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		06B793C31F9520E400E46CCE /* Build configuration list for PBXProject "Piano" */ = {
+		06B793C31F9520E400E46CCE /* Build configuration list for PBXProject "Xylophone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06B793D81F9520E400E46CCE /* Debug */,
@@ -312,7 +340,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		06B793DA1F9520E400E46CCE /* Build configuration list for PBXNativeTarget "Piano" */ = {
+		06B793DA1F9520E400E46CCE /* Build configuration list for PBXNativeTarget "Xylophone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06B793DB1F9520E400E46CCE /* Debug */,
